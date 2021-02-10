@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STATION WHERE TO STATION</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+   <style>
+    .b{
+        color:rgb(14, 5, 139) ;
+    }
+    .sta{
+        margin-left: 100px;
+       color: rgb(9, 33, 105);
+    }
+    select {
+        width: 65%;
+        padding: 16px 20px;
+        border: none;
+        border-radius: 9px;
+        background-color:  blue;
+        border: 2px solid rgb(198, 211, 78);
+        margin-left: 100px;
+    }
+    .button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color:  blue;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color:  blue; 
+  color: black; 
+  border: 2px solid #4CAF50;
+  width: 140px;
+  margin-left: 200px;
+ margin-top: 50px;
+ height:60px;
+}
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <nav>
+            <img src="image/logo.png" width="35" height="35" style="padding-top:10px;padding-left:10px ;" >
+            <a style="color: rgb(255, 38, 0);">UTS</a>
+            <a style="color: rgb(255, 38, 0);">IR Unreserved Ticketing</a>
+            <ul>
+                <li><a href="profile.php">HOME</a></li>
+            </ul>
+        </nav><br>
+          <center><h3 class="b">NORMAL BOOKING</h3></center><br>
+                    <label class="sta">From Station</label><br><br>
+                    <select name="station" id="country" >
+                        <option name="station" value="sealdah">Sealdah-SDH</option>
+                        <option name="station" value="sealdah">Park-circus-PQS</option>
+                        <option name="station" value="sealdah">Ballygunge jn.-BLN</option>
+                        <option name="station" value="sealdah">Dhakuria-DKH</option>
+                        <option name="station" value="sealdah">Jadavpur-JDP</option>
+                        <option name="station" value="sealdah">Baghajatin-BGJT</option>
+                        <option name="station" value="sealdah">New Garia-NGIA</option>
+                        <option name="station" value="sealdah">Garia-GIA</option>
+                        <option name="station" value="sealdah">Narendrapur-NPPR</option>
+                        <option name="station" value="sealdah">Sonarpur-SPR</option>
+                        <option name="station" value="sealdah">Subhasgram-SBGR</option>
+                        <option name="station" value="sealdah">Mallikpur-MAK</option>
+                        <option name="station" value="sealdah">Baruipur-BRP</option>
+                    </select><br><br><br>
+                     
+                    <label class="sta">To Station</label><br><br>
+                    <select name="station" id="country" >
+                        <option name="station" value="sealdah">Sealdah-SDH</option>
+                        <option name="station" value="sealdah">Park-circus-PKS</option>
+                        <option name="station" value="sealdah">Ballygunge jn.-BLN</option>
+                        <option name="station" value="sealdah">Dhakuria-DKH</option>
+                        <option name="station" value="sealdah">Jadavpur-JDP</option>
+                        <option name="station" value="sealdah">Baghajatin-BGIT</option>
+                        <option name="station" value="sealdah">New Garia-NGIA</option>
+                        <option name="station" value="sealdah">Garia-GIA</option>
+                        <option name="station" value="sealdah">Narendrapur-NPPR</option>
+                        <option name="station" value="sealdah">Sonarpur-SPR</option>
+                        <option name="station" value="sealdah">Subhasgram-SBGR</option>
+                        <option name="station" value="sealdah">Mallikpur-MAK</option>
+                        <option name="station" value="sealdah">Baruipur-BRP</option>
+                    </select>
+           <br>
+           
+           <button class="button button1" onclick="window.location.href = 'ticket_details.html';">DONE</button>   
+
+        </body>
+</html>

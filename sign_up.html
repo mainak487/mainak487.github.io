@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sign_up Form</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style> 
+		input[type=text] {
+		  width: 100%;
+		  padding: 12px 20px;
+		  margin: 8px 0;
+		  box-sizing: border-box;
+		  border: none;
+		  background-color: rgba(147, 13, 173, 0.333);
+		  color: white;
+		}
+		input[type=number] {
+		  width: 100%;
+		  padding: 12px 20px;
+		  margin: 8px 0;
+		  box-sizing: border-box;
+		  border: none;
+		  background-color: rgba(147, 13, 173, 0.333);
+		  color: white;
+		}
+		input[type=PassWord] {
+		  width: 100%;
+		  padding: 12px 20px;
+		  margin: 8px 0;
+		  box-sizing: border-box;
+		  border: none;
+		  background-color: rgba(147, 13, 173, 0.333);
+		  color: white;
+		}
+		input[type=submit] {
+        width: 30%;
+        background-color: #100dbb;
+        color: rgb(95, 93, 93);
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+		.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: rgba(147, 13, 173, 0.333);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid rgba(147, 13, 173, 0.333);
+  height: 65px;
+  width: 30%;
+}
+
+.button5:hover {
+  background-color: rgba(147, 13, 173, 0.333);
+  color: white;
+}
+		
+		</style>
+</head>
+<body>
+	<div id="main">
+        <nav>
+        <img src="image/logo.png" width="35" height="35" style="padding-top:10px;padding-left:10px ;" >
+        <a style="color: rgb(255, 38, 0);">UTS</a>
+        <a style="color: rgb(255, 38, 0);">IR Unreserved Ticketing</a>
+    </nav><br><br>
+   <form action="sign.php" method="POST">
+   	  <table align="center">
+   	  	<tr>
+   	  		<td><label>Enter Your username</label></td>
+   	  	    <td><input type="text" name="username" placeholder="User-Name" id="fname"></td>
+   	  	</tr>
+   	    <tr>
+   	  		<td><label>Enter Your Mobile Number</label></td>
+   	  	    <td><input type="number" name="contact" placeholder="Mobile No."></td>
+   	  	</tr>
+   	  	<tr>
+   	  		<td><label>Enter A PassWord</label></td>
+   	  	    <td><input type="passWord" name="password1" placeholder="PassWord"></td>
+   	  	</tr>
+   	    <tr>
+   	  		<td><label>Confirm Your PassWord</label></td>
+   	  	    <td><input type="password" name="password2" placeholder="PassWord"></td>
+   	  	</tr>
+     </table><br><br>
+  <center><input type="submit" name="button" value="SIGN-UP"></center>
+</form>
+</div>
+</body>
+</html>

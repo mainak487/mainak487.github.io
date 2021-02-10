@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKING MODE</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  <style>
+ .button {
+          background-color: rgb(11, 19, 87); /* rgb */
+          border: none;
+          color: white;
+          padding: 20px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 10px 10px;
+          cursor: pointer;
+          height:140px;
+          width:150px;
+        }
+        .button1 {
+            border-radius: 4px;
+           margin-left: 10px;
+           padding-bottom: 80px;
+        }
+        .button3 {
+            border-radius: 4px;
+            margin-left: 10px;
+            padding-bottom: 80px;
+        }
+        .b{
+            color: rgb(11, 19, 87);
+        }
+        hr.new1 {
+  border-top: 1px solid blue;
+   }
+     .rr{
+         color: rgb(230, 6, 6);
+     }
+  </style>
+</head>
+<body>
+    <div id="main">
+        <nav>
+            <img src="image/logo.png" width="35" height="35" style="padding-top:10px;padding-left:10px ;" >
+            <a style="color: rgb(255, 38, 0);">UTS</a>
+            <a style="color: rgb(255, 38, 0);">IR Unreserved Ticketing</a>
+            <ul>
+                <li><a href="profile.php">HOME</a></li>
+            </ul>
+        </nav>
+         <br> <center><h3 class="b">CHOOSE BOOKING MODE</h3></center>
+          <table>
+                 <tr>
+                     <td><button class="button button1" onclick="window.location.href = 'station.html';"><br>BOOK AND TRAVEL<br>(PAPERLESS)<br><br><img src="" height="80" width="70" alt=""></button></td>
+                 <td><p>
+                  *use this option if you are outside station premices/Railway track.
+                  *Display on mobile is the Travel authority.<br>
+                  *Set your phone GPS to high accuracy mode.
+                 </p></td>
+                </tr>
+            </table>
+                 <hr class="new1">
+                 <br>
+            <table>
+                 <tr>
+                     <td><button class="button button3" onclick="window.location.href = 'station.html';"><br>BOOK AND PRINT<br>(PAPER)<br><br><img src="" height="80" width="70" alt=""></button></td>
+                      <td>
+                        <p>
+                            *Book Anywhere.<br>
+                            *Print Ticket at originating Station.<br>
+                            *PRINTED TICKET IS TRAVEL AUTHORITY.
+                           </p>
+                           <p class="rr">
+                               *Travel withot ticket printout is punishable.
+                           </p>
+                        </td> 
+                    </tr>
+             </table>
+        
+                 <hr class="new1">
+         
+
+
+</body>
+</html>

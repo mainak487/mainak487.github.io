@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Change City</title>
+<style>
+nav ul li:hover{
+background-color: rgb(165, 42, 124);
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border: 2px solid rgb(11, 19, 87);
+  background-color: rgba(102, 104, 105, 0.333);
+}
+.city{
+    color: rgb(11, 19, 87);
+}
+ .button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color:  blue;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color:  rgb(11, 19, 87); 
+  color: black; 
+  border: 4px solid #4CAF50;
+  width: 140px;
+  height:70px;
+  margin-left: 200px;
+ margin-top: 50px;
+}
+</style>
+</head>
+<body>
+    <div id="main">
+        <nav>
+        <img src="image/logo.png" width="35" height="35" style="padding-top:10px;padding-left:10px ;" >
+        <a style="color: rgb(255, 38, 0);">UTS</a>
+        <a style="color: rgb(255, 38, 0);">IR Unreserved Ticketing</a>
+        <ul>
+            <li><a href="profile.php" >HOME</a></li>
+        </ul>
+    </nav><br>
+ 
+<center><h3 style="color:rgb(11, 19, 87);">Change City</h3></center><br><br>
+
+<form>
+    <label for="fname" style="padding-left:40px ;" class="city">CITY :</label><br><br>
+    <input type="text" id="fname" name="fname">
+
+    <button class="button button1" onclick="window.location.href ='';">DONE</button>
+
+</form>
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Passenger Details
+    </title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style> 
+        .b{
+        color:rgb(19, 13, 109) ;
+    }
+        select {
+          width: 90%;
+          padding: 16px 20px;
+          border: none;
+          border-radius: 4px;
+          background-color: rgba(218, 195, 195, 0.333);
+          margin-left: 25px;
+          border: 2px solid rgb(30, 22, 143);
+        }
+        .sta{
+        margin-left: 80px;
+       color: rgb(255, 30, 0);
+    }
+    .button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color:  blue;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color:  blue; 
+  color: black; 
+  border: 2px solid #4CAF50;
+  width: 140px;
+  height:60px;
+  margin-left: 120px;
+ margin-top: 50px;
+}
+       </style>
+</head>
+<body>
+    <div id="main">
+        <nav>
+            <img src="image/logo.png" width="35" height="35" style="padding-top:10px;padding-left:10px ;" >
+            <a style="color: rgb(255, 38, 0);">UTS</a>
+            <a style="color: rgb(255, 38, 0);">IR Unreserved Ticketing</a>
+            <ul>
+                <li><a href="profile.php">HOME</a></li>
+            </ul>
+        </nav><br>
+        
+        <center><h3 class="b">NORMAL BOOKING</h3></center><br>
+    
+    <form>
+        <table>
+         <tr>
+           <td> <label class="sta">ADULT</label><br><br>   
+            <select id="country" name="country">
+            <option value="au">ZERO(0)</option>
+            <option value="ca">ONE(1)</option>
+            <option value="usa">TWO(2)</option>
+            <option value="ca">THREE(3)</option>
+            <option value="usa">FOUR(4)</option>
+        </select></td>
+        <td><label class="sta">CHILD</label><br><br>   
+            <select id="country" name="country">
+            <option value="au">ZERO(0)</option>
+            <option value="ca">ONE(1)</option>
+            <option value="usa">TWO(2)</option>
+            <option value="ca">THREE(3)</option>
+            <option value="usa">FOUR(4)</option>
+        </select></td>
+    </tr>
+    </table><br><br>
+    <table>
+        <tr>
+          <td> <label class="sta">TICKET TYPE</label><br><br>   
+           <select id="country" name="country">
+           <option value="au">JOURNEY</option>
+           <option value="ca">RETURN</option>
+       </select></td>
+       <td><label class="sta">TRAIN TYPE</label><br><br>   
+           <select id="country" name="country">
+           <option value="au">ORDINARY</option>
+           <option value="ca">MAIL/EXP</option>
+           <option value="usa">SUPERFAST</option>
+       </select></td>
+   </tr>
+   </table><br>
+   <table>
+    <tr>
+      <td> <label class="sta">CLASS</label><br><br>   
+       <select id="country" name="country">
+       <option value="au">GENERAL</option>
+       <option value="ca">SECOND</option>
+       <option value="au">SLEEPER</option>
+       <option value="ca">3-TIER</option>
+       <option value="ca">FIRST</option>
+    </select></td>
+   <td><label class="sta">PAYMENT TYPE</label><br><br>   
+       <select id="country" name="country">
+       <option value="au">R-WALLET</option>
+       <option value="ca">BANKING</option>
+   </select></td>
+</tr>
+</table>
+
+
+<button class="button button1" onclick="window.location.href = 'ticket_details.html';">DONE</button>   
+
+    </form>
+          </div>
+</body>
+</html>

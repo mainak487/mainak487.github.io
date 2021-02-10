@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Routes</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+<style>
+    .frqnt{
+       font-size: 20px; 
+      color: red;
+    }
+    .button {
+          background-color: rgb(49, 194, 204); /* rgb */
+          border: none;
+          color: white;
+          padding: 20px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 10px 10px;
+          cursor: pointer;
+        }
+        .button1 {
+            border-radius: 4px;
+            width:150px;
+            padding-bottom: 90px;
+        }
+        .button2 {
+            border-radius: 4px;
+            width:150px;
+            padding-bottom: 90px;
+        }
+</style>
+</head>
+<body>
+    <div id="main">
+        <nav>
+            <img src="image/logo.png" width="35" height="35" style="padding-top:10px;padding-left:10px ;" >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <ul>
+                <li><a href="profile.php">HOME</a></li>
+            </ul>
+        </nav><br><br><br>
+
+<center><h4 class="frqnt">* Frequent Travel Routes</h4><br>
+<p>AVAILABLE ROUTES</p></center><br><br>
+<table>
+    <tr>
+        <td><button class="button button1" onclick="window.location.href = 'userprofile.html';">EXIT<br><br><img src="image/exit.webp" height="40" width="40" alt=""></button></td>
+       <td><button class="button button2" onclick="window.location.href = 'creden.html';">ADD ROUTE<br><br><img src="image/addroute.png" height="40" width="40" alt=""></button></td>
+ </tr>
+</table>
+</div>
+    </body>
+</html>

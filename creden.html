@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>credentials</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      input[type=text], select {
+        width: 90%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid rgb(122, 119, 119);
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      input[type=password], select {
+        width: 90%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid rgb(122, 119, 119);
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      
+      input[type=submit] {
+        width: 50%;
+        background-color: #100dbb;
+        color: rgb(95, 93, 93);
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #6a6a81;
+      }
+      
+      div {
+        border-radius: 5px;
+        background-color:#0005;
+        padding: 0px;
+      }
+      </style>
+</head>
+<body>
+    <form method="POST" action="profile.php">
+  <div id="main">
+        <nav>
+            <img src="image/logo.png" width="35" height="35" style="padding-top:10px;padding-left:10px ;" >
+            <a style="color: rgb(255, 38, 0);">UTS</a>
+            <a style="color: rgb(255, 38, 0);">IR Unreserved Ticketing</a>
+        </nav><br>
+            <label for="fname">USER Name</label>
+            <input type="text" id="fname" name="username" placeholder="user name">
+        
+            <label for="lname">password</label>
+            <input type="text" id="lname" name="password" placeholder="Your password">
+          
+            <input type="submit" value="LOGIN">
+        </div>
+      </form>
+      
+
+    </body>
+</html>

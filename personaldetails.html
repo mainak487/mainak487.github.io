@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL DETAILS</title>
+<style>
+.per{
+   color: blue; 
+}
+select {
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #0585fd;
+}
+.idcrd{
+    color: rgb(5, 21, 94);
+}
+input[type=text] {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          box-sizing: border-box;
+          border: none;
+          border-bottom: 2px solid rgb(24, 73, 153);
+          background-color: #0585fd;
+        }
+.pass{
+    color: rgb(5, 21, 94);;
+      }
+input[type=date] {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          box-sizing: border-box;
+          border: none;
+          background-color: #0585fd;
+          height: 49px;
+          border-radius: 2px;
+        }
+        .button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: #0585fd;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 50%;
+}
+.button3 {
+  background-color: #0585fd; 
+  color: black; 
+  border: 2px solid #f44336;
+  height:60px;
+}
+
+.button3:hover {
+  background-color: #f44336;
+  color: #0585fd;
+}
+</style>
+
+</head>
+<body>
+    <div id="main">
+        <nav>
+        <img src="image/logo.png" width="35" height="35" style="padding-top:10px;padding-left:10px ;" >
+        <a style="color: rgb(255, 38, 0);">UTS</a>
+        <a style="color: rgb(255, 38, 0);">IR Unreserved Ticketing</a>
+        <ul>
+            <li><a href="profile.php">HOME</a></li>
+        </ul>
+    </nav><br><br>
+  <center><h4 class="per">CHANGE PERSONAL DETAILS</h4></center><br><br><br>
+
+  <form>
+    <label for="fname" class="idcrd">Select Id-Card Type</label><br><br>
+    <select id="country" name="country">
+    <option value="govt">Govt. issued Card</option>
+    <option value="pan">PAN Card</option>
+    <option value="vot">Voter Id</option>
+    <option value="adhr">Adhar Card</option>
+    <option value="drvlic">Driving License</option>
+    <option value="pass">Passport</option>
+    <option value="stdicrd">Student Icard</option>
+    <option value="bnkpssbk">Bank Passbook</option>
+    <option value="crdcrd">Credit Card with laminated photo</option>
+    </select>
+  </form><br><br>
+ 
+ 
+  <label for="fname" class="pass">ID Card Number</label><br>
+  <input type="text" id="fname" name="fname"><br><br>
+  
+<table>
+    <tr>
+        <td><label for="fname" class="idcrd">GENDER</label>
+            <select id="country" name="country">
+            <option value="govt">MALE</option>
+            <option value="pan">FEMALE</option>
+            <option value="vot">TRANSGENDER</option></td>
+           
+           <td><label for="fname" class="idcrd">Date Of Birth</label>
+             <input type="date" name="dob"></td> 
+        </tr>
+</table><br><br>
+<center><button class="button button3">PROCEED</button></center>
+</div>
+</body>
+</html>
